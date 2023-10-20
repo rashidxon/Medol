@@ -1,0 +1,234 @@
+a{
+    font-size: 18px;
+    font-weight: 400;
+}
+.containers h1{
+    text-align: left;
+    color: #0D4C93;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.usl_nav{
+    margin: 3% 0;
+}
+.containers a{
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+.containers a:hover{
+    color: #00C9C9;
+}
+.containers img{
+    width: 150px;
+    height: 150px;
+}
+.usl_item{
+    width: 310px;
+    margin: 20px;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+    border-radius: 25px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+.usl_item p{
+    padding: 10px 25px;
+}
+.about_btn{
+    width: 192px;
+    height: 60px;
+    border-radius: 30px;
+    opacity: 0.9;
+    border: 1px solid #0D4C93;
+    background: #0D4C93;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.about_btn2{
+    width: 192px;
+    height: 60px;
+    border-radius: 30px;
+    opacity: 0.9;
+    border: 1px solid #F9F9F9;
+    background: #F9F9F9;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    color: #5A5A5A;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.contact{
+    text-align: left;
+}
+.contact h3{
+    margin-top: 15%;
+}
+.contact iframe{
+    border-radius: 25px;
+}
+.branch h4{
+    margin: 5% 0;
+}
+.contact_item2{
+    padding: 60px;
+    border-radius: 35px;
+    opacity: 0.9;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
+.card_contacts{
+    width: 400px;
+    margin: 5% 0;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid #DFDFDF;
+    opacity: 0.9;
+    background: #EFEFEF;
+}
+.card_contacts i {
+    font-size: 21px;
+}
+.card_contacts input{
+    margin-left: 5%;
+    width: 300px;
+    border: none;
+    background: #EFEFEF;
+}
+.card_contacts input:focus{
+    outline: none;
+}
+.card_area{
+    width: 100%;
+    padding: 20px;
+    border-radius: 35px;
+    border: 1px solid #DFDFDF;
+    opacity: 0.9;
+    background: #EFEFEF;
+}
+.card_area textarea{
+    border: none;
+    background: #EFEFEF;
+}
+.card_area textarea:focus{
+    outline: none;
+}
+.acses{
+    margin: 3% 0;
+}
+.acses span{
+    font-size: 18px;
+}
+.check{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background: #0D4C93;
+}
+.acses_btn{
+    border: none;
+    margin: 1% 0;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #FFF;
+    opacity: 0.9;
+    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+}
+.newspapers h1{
+    color: #0D4C93;
+    margin: 8% 0;
+}
+.news_slide1{
+    width: 300px;
+    height: 650px;
+    margin-left: 10%;
+}
+.newspapers img{
+    width: 335px;
+    height: 251px;
+    border-radius: 20px;
+}
+.newspapers h6{
+    color: #0D4C93;
+}
+.newspapers a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #0D4C93;
+}
+.newspapers a:hover{
+    color: #00C9C9;
+}
+.AboutDetalis h2{
+    text-align-last: left;
+    color: #0D4C93;
+}
+.AboutDetalis img{
+    width: 335px;
+    height: 251px;
+    border-radius: 20px;
+}
+.AboutDetalis p{
+    text-align: left;
+}
+.AboutDetalis a{
+    text-decoration: none;
+    text-align: left !important;    
+}
+.AboutDetalis_item{
+    padding: 50px 0;
+    border-radius: 35px;
+    border: 2px solid #F6F6F6;
+    opacity: 0.9;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+.AboutDetalis_item button{
+    width: 245px;
+    height: 57px;
+    margin-top: 5%;
+    border: 1px solid #0D4C93;
+    border-radius: 15px;
+    background: #0D4C93;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.contactDetalis{
+    text-align: left;
+}
+.contactDetalis h3{
+    margin: 3% 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    iframe{
+        width: 350px;
+        height: 250px;
+    }
+    .product_card_img {
+        text-align: center;
+        padding: 40px;
+        width: 200px;
+        height: 100px;
+        border-radius: 50px;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+}

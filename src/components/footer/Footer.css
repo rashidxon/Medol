@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    padding: 50px 0 0 30px;
+    background-image: url(../../assets/images/blur-hospital\ 1.png) ;
+    background-color: lightgray 50%;
+}
+.food_item{
+    text-align: left;
+    display: flex;
+}
+.food_item img{
+    width: 200px;
+    height: 58px;
+}
+.food_item p{
+    width: 400px;
+}
+.food_item button{
+    margin: 10px 0;
+}
+.food_links{
+    text-align: left;
+    margin-left: 15%;
+}
+.food_text{
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .food_links{
+        display: none;
+    }
+    .domen{
+        display: none;
+    }
+}

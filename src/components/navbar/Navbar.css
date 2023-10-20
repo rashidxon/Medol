@@ -1,0 +1,269 @@
+header{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    align-items: center;
+    background: url("../../assets/images/blur-hospital-clinic-interior\ 1.png"), no-repeat, center;
+}
+.nav select{
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    color: #0D4C93;
+    font-weight: 700;
+}
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_facebook{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    padding-top: 10px;
+}
+.mobile__menu{
+    display: none;
+}
+span i{
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: #0D4C93;
+    background-color: #FFFFFF;
+}
+.navigation{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-top: 2%;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation ul li{
+    text-align: center;
+    align-items: center;
+    color: #0D4C93;
+    border-right: 1px solid #F2F2F2;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav__active{
+    color: #00C9C9;
+    font-weight: 700;
+}
+.facebook {
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    color: #0D4C93;
+    background-color: #FFFFFF;
+}
+.flag {
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    color: #0D4C93;
+    background-color: #FFFFFF;
+}
+.flag img{
+    border-radius: 15px;
+}
+.flag select:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 992px) {
+    .nav_item{
+        display: inline;
+        order: 3;
+    }
+    .nav_items p{
+        display: none;
+    }
+    .nav_item1{
+        order: 1
+    }
+    .facebook{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53);
+        z-index: 999;
+        display: none;
+        border-radius: 0px;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #FFF;
+        color: #0D4C93;
+        flex-direction: column;
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+    }
+    .active__menu{
+        display: block;
+    }
+    .mobile__menu{
+        display: block;
+    }
+    .mobile__menu span i{
+        font-size: 1.1rem !important;
+    }
+    .nav select{
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 20px;
+        color: #0D4C93;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row > * {
+        width: auto !important;
+    }
+    .nav_item{
+        display: inline;
+        order: 3;
+    }
+    .nav_items p{
+        display: none;
+    }
+    .nav_item1{
+        order: 1
+    }
+    .facebook{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53);
+        z-index: 999;
+        display: none;
+        border-radius: 0px;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #FFF;
+        color: #0D4C93;
+        flex-direction: column;
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+    }
+    .active__menu{
+        display: block;
+    }
+    .mobile__menu{
+        display: block;
+    }
+    .mobile__menu span i{
+        font-size: 1.1rem !important;
+    }
+    .nav select{
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 20px;
+        color: #0D4C93;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .row > * {
+        width: auto !important;
+    }
+    span i{
+        padding: 0px;
+    }
+    .nav_items {
+        display: inline;
+        width: 50px !important; 
+    }
+    .nav_item1 img{
+        width: 100px;
+    }
+    .navigation ul li a {
+        text-decoration: none;
+        font-size: 21px;
+        padding: 0;
+        font-weight: 400;
+    }
+    .nav_item{
+        text-align-last: left;
+    }
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53);
+        z-index: 999;
+        display: none;
+        border-radius: 0px;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #FFF;
+        color: #0D4C93;
+        flex-direction: column;
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+    }
+    .active__menu{
+        display: block;
+    }
+    .mobile__menu{
+        display: block;
+    }
+    .mobile__menu span i{
+        font-size: 1.5rem !important;
+    }
+    .flag{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+}

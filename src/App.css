@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.btns{
+  border: none;
+  margin: 10% 0;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: #FFF;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+}

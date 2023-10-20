@@ -1,0 +1,119 @@
+.PoductDetalis{
+    text-align: left;
+}
+.PoductDetalis_nav{
+    margin: 3%;
+}
+.PoductDetalis_nav a{
+    text-decoration: none;
+}
+.PoductDetalis h2{
+    color: #0D4C93;
+}
+.product_card{
+    padding: 70px;
+    border-radius: 35px;
+    opacity: 0.9;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
+.product_card span{
+    color: #0D4C93;
+    font-weight: 500;
+}
+.product_card_img{
+    text-align: center;
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+.card_contact{
+    width: 500px;
+    margin: 5% 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+.card_contact a{
+    font-size: 27px;
+    text-decoration: none;
+    color: #5A5A5A;
+}
+.card_contact a:hover{
+    color: #257CFD;
+}
+.card_contact input{
+    width: 300px;
+    border: none;
+}
+.card_contact input:focus{
+    outline: none;
+}
+.product_btn{
+    margin: 10% 0;
+    border: 1px solid #0D4C93;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #0D4C93;
+    font-weight: 500;
+    border-radius: 50px;
+    opacity: 0.9;
+    background: #FFF;
+}
+.buttons{
+    margin: 3% 0;
+}
+.detalis_btn1{
+    width: 248px;
+    height: 50px;
+    border: 1px solid #0D4C93;
+    border-radius: 25px;
+    opacity: 0.9;
+    background: #0D4C93;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.detalis_btn2{
+    width: 348px;
+    height: 50px;
+    border: 1px solid #F9F9F9;
+    border-radius: 25px;
+    opacity: 0.9;
+    background: #F9F9F9;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    color: #5A5A5A;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 576px) {
+    .product_card_img {
+        text-align: center;
+        width: 350px;
+        height: 300px;
+        border-radius: 50px;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+    .product_card{
+        padding: 0;
+    }
+    .card_contact{
+        width: 380px;
+    }
+    .card_contact input{
+        width: 250px;
+    }
+}

@@ -1,0 +1,163 @@
+.home{
+    background-image: url("../assets/images/blur-hospital\ 1.png");
+    background-position-y: 50%;
+    background-color: rgb(252, 252, 252);
+}
+.carousel-status{
+    display: none;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    background: #00C9C9;
+}
+.carousel .control-dots .dot{
+    width: 15px;
+    height: 15px;
+    border: 3px solid #00C9C9;
+}
+.slide_first{
+    text-align: left;
+    align-items: center;
+    padding: 50px;
+}
+.slide_first h1{
+    color: #0D4C93;
+    padding-top: 30px;
+}
+.slide_first img{
+    width: 400px;
+}
+.home_button{
+    border: 1px solid linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #FFF;
+    border-radius: 50px;
+    opacity: 0.9;
+    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+}
+.home_product{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.home_product h1{
+    color: #0D4C93;
+}
+.home_product img{
+    width: 150px;
+    height: 150px;
+}
+.home_product_item{
+    width: 300px;
+    height: 280px;
+    margin: 30px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+}
+.home_product a{
+    text-decoration: none;
+}
+.abouts {
+    margin-top: 5%;
+    text-align: center;
+    background-image: url("../assets/images/Frame\ 3.png");
+}
+.abouts h1{
+    color: #0D4C93;
+    margin: 5%;
+}
+.abouts_item{
+    width: 300px;
+    margin: 5% 0;
+    border-radius: 25px 25px;
+    background-color: #FFFFFF;
+}
+.abouts_item img{
+    width: 300px;
+    border-radius: 25px 25px 0 0;
+}
+.abouts_item h5{
+    margin: 5%;
+    color: #0D4C93;
+}
+.abouts_item p{
+    width: 300px;
+}
+.kompaniya h1{
+    color: #0D4C93;
+    margin: 5%;
+}
+.kompaniya img{
+    width: 450px;
+}
+.kompaniya p, button{
+    text-align: left;
+    margin-top: 13%;
+}
+.newspapers h1{
+    color: #0D4C93;
+    margin: 8% 0;
+}
+.news_slide1{
+    width: 300px;
+    height: 650px;
+    margin-left: 10%;
+}
+.newspapers img{
+    width: 300px;
+    border-radius: 20px;
+}
+.newspapers h6{
+    color: #0D4C93;
+}
+.newspapers a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #0D4C93;
+}
+.newspapers a:hover{
+    color: #00C9C9;
+}
+.hamkorlar h1{
+    color: #0D4C93;
+    margin: 5%;
+}
+.slick-slide img{
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    .slide_first img{
+        display: none;
+    }
+    .kompaniya img{
+        display: none;
+    }
+    .kompaniya p {
+        text-align: left;
+        margin-top: 3%;
+    }
+    .news_slide1 {
+        width: 300px;
+        height: 650px;
+        margin-left: 30%;
+    }
+}
+
+
+@media  (max-width: 576px) {
+    .row > * {
+        width: auto;
+    }
+    .news_slide1 {
+        width: 100px;
+        height: 650px;
+        margin-left: 30%;
+    }
+    .slick-next {
+        right: -2px;
+    }
+    .slick-prev {
+        left: -15px;
+    }
+}
