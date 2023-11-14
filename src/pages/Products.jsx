@@ -24,22 +24,16 @@ const Products = () => {
               <Col lg='3' md='4'>
                 <select name="" id="">
                   <option value="">Бренд</option>
-                  <option value=""></option>
-                  <option value=""></option>
                 </select>
               </Col>
               <Col lg='3' md='4'>
                 <select name="" id="">
                   <option value="">Категория</option>
-                  <option value=""></option>
-                  <option value=""></option>
                 </select>
               </Col>
               <Col lg='3' md='4'>
                 <select name="" id="">
                   <option value="">Направление</option>
-                  <option value=""></option>
-                  <option value=""></option>
                 </select>
               </Col>
             </Row>

@@ -68,6 +68,7 @@ span i{
     font-weight: 700;
 }
 .facebook {
+    width: 100%;
     border: 1px solid #FFFFFF;
     border-radius: 25px;
     color: #0D4C93;

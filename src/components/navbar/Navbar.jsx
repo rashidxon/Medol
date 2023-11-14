@@ -69,7 +69,7 @@ const Navbar = () => {
                 </Col>
                 <Col lg='2' md='1'>
                     <div className='facebook'>
-                        <span className='nav_facebook'><i class="ri-facebook-fill"></i>Мы на Facebook</span>
+                        <p className='nav_facebook'><i class="ri-facebook-fill"></i>Мы Facebook</p>
                     </div>
                 </Col>
                 <Col lg='2' md='1'>
