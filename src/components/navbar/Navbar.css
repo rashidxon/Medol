@@ -5,6 +5,9 @@ header{
     align-items: center;
     background: url("../../assets/images/blur-hospital-clinic-interior\ 1.png"), no-repeat, center;
 }
+.menu-flags{
+    border-radius: 40px;
+}
 .nav select{
     padding: 10px 20px;
     border: 1px solid #FFFFFF;
@@ -88,9 +91,7 @@ span i{
         display: inline;
         order: 3;
     }
-    .nav_items p{
-        display: none;
-    }
+    
     .nav_item1{
         order: 1
     }
@@ -207,6 +208,15 @@ span i{
 @media screen and (max-width: 576px) {
     .row > * {
         width: auto !important;
+        padding-left: calc(var(--bs-gutter-x) * 0) !important;
+    }
+    .ReactFlagsSelect-module_label__27pw9, 
+    .ReactFlagsSelect-module_secondaryLabel__37t1D {
+        display: none !important;
+        order: 2;
+    }
+    .ReactFlagsSelect-module_selectBtn__19wW7{
+        padding: 5px !important;
     }
     span i{
         padding: 0px;
@@ -216,7 +226,7 @@ span i{
         width: 50px !important; 
     }
     .nav_item1 img{
-        width: 100px;
+        width: 130px;
     }
     .navigation ul li a {
         text-decoration: none;

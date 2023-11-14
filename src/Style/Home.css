@@ -160,4 +160,10 @@
     .slick-prev {
         left: -15px;
     }
+    .home_product  .row{
+        padding-left: calc(var(--bs-gutter-x) * 0) !important;
+    }
+    .abouts .container{
+        padding-left: calc(var(--bs-gutter-x) * 2.7) !important;
+    }
 }

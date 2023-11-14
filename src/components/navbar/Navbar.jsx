@@ -1,13 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import "./Navbar.css"
-import { useState } from 'react';
 import { Container, Row, Col} from 'reactstrap'
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import ReactFlagsSelect from "react-flags-select";
 
 import logo from "../../assets/images/logo 1.png"
-import uzb from "../../assets/images/uzb.png"
-import eng from "../../assets/images/eng.png"
-import rus from "../../assets/images/Flag_of_Russia 1.png"
 
 const nav_links = [
     {
@@ -39,6 +36,8 @@ const nav_links = [
 
 
 const Navbar = () => {
+
+    const [selected, setSelected] = useState("RU");
     
     const menuRef = useRef(null);
     const menuToggle = () => menuRef.current.classList.toggle("active__menu");
@@ -48,16 +47,16 @@ const Navbar = () => {
     <header className='nav'>
         <Container>
             <Row>
-                <Col lg='2' md='1' >
+                <Col lg='2' md='2' >
                     <div className='nav_items'>
                         <span><i class="ri-map-pin-line"></i></span>
                         <p>г.Ташкент,Чиланзар<br/> 10 квартал,дом 3/1</p>
                     </div>
                 </Col>
-                <Col lg='2' md='1' sm='2'>
+                <Col lg='2' md='2' sm='2'>
                     <div className='nav_items'>
                         <span><i class="ri-phone-fill"></i></span>                   
-                        <p>+998 71 276-62-53<br/> +998 71 276-62-54</p>
+                        <p>+998712766253<br/> +998712766254</p>
                     </div>
                 </Col>
                 <Col lg='3' md='4'>
@@ -73,25 +72,13 @@ const Navbar = () => {
                         <span className='nav_facebook'><i class="ri-facebook-fill"></i>Мы на Facebook</span>
                     </div>
                 </Col>
-                <Col lg='2' md='3'>
-                    <div className='flag'>
-                        {
-                            lang == "uz" ? <img src={uzb} alt="" /> : null
-                        }
-                        {
-                            lang == "eng" ? <img src={eng} alt="" /> : null
-                        }
-                        {
-                            lang == "rus" ? <img src={rus} alt="" /> : null
-                        }
-                        <select onChange={(e)=>{
-                                setLang(e.target.value)
-                            }} name="" id="">
-                                <option value="eng">English</option>
-                                <option value="uz">O’zbekcha</option>
-                                <option value="rus">Русский</option>
-                        </select>
-                    </div>
+                <Col lg='2' md='1'>
+                    <ReactFlagsSelect
+                        className="menu-flags"
+                        selected={selected}
+                        onSelect={(code) => setSelected(code)}
+                        countries={["US", "GB", "RU", "UZ"]}
+                    />
                 </Col>
                 <Col md='1'>
                     <div className="mobile__menu">
