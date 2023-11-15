@@ -161,9 +161,23 @@
         left: -15px;
     }
     .home_product  .row{
-        padding-left: calc(var(--bs-gutter-x) * 0) !important;
+        padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
     }
     .abouts .container{
         padding-left: calc(var(--bs-gutter-x) * 2.7) !important;
+    }
+}
+
+@media  (max-width: 320px) {
+    .abouts .container{
+        padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    }
+    .news_slide1 {
+        max-width: 235px;
+        height: 650px;
+        margin-left: 30%;
+    }
+    .newspapers img{
+        width: 250px !important;
     }
 }
