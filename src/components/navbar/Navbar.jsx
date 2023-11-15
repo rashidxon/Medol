@@ -37,12 +37,11 @@ const nav_links = [
 
 const Navbar = () => {
 
-    const [selected, setSelected] = useState("RU");
+    const [selected, setSelected] = useState("US");
     
     const menuRef = useRef(null);
     const menuToggle = () => menuRef.current.classList.toggle("active__menu");
-    
-    const [lang, setLang] = useState("eng")
+
   return (
     <header className='nav'>
         <Container>
